@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="folder-logo.jfif" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <nav class="navbar"> <br>
+                <ul>
+                    <li><a href="#objective" data-target="objective">Objective</a></li>
+                    <li><a href="#about" data-target="about">About</a></li>
+                    <li><a href="#contact" data-target="contact">Contact</a></li>   
+                    <li><a href="#compilation" data-target="Compilation">Compilation</a></li>   
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="objective" class="intro zoom-in visible">
+        <div class="container">
+            <div class="intro-content">
+                <div class="text-content">
+                    <h1 class="enlarged-text">
+                        Hi, I'm Cedrick!<br />
+                    </h1>
+                    <p class="highlighted-text">
+                        Currently a Third year College <span class="highlight-blue">BSCS Student</span> in<br />
+                        <span class="highlight-blue">Cavite State University (CvSU)</span><br />
+                    </p>
+                </div>
+                <div class="image-content">
+                    <img src="cedrick.jpg.jpg" alt="Cedrick E. Domingo" class="responsive-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="hidden">
+        <div class="container">
+            <div class="text-content">
+                I want to learn more about computers and programming<br />
+                Actually i want to be a seaman but my parents can't afford it, so I decided to take computer science because I also like computers<br />
+                I also like playing basketball<br/>
+            </div>
+            <div class="image-container">
+                <img src="https://www.careerguide.com/career/wp-content/uploads/2021/01/coding_gif.gif"
+                    alt="Description of Image" class="about-image" />
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you have any questions, feel free to reach out to me through the following methods:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="cedrickd649@gmail.com">cedrickd649@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="cel:+639632947219">+639632947219</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Social Media</h3>
+                    <p>
+                        <a href="https://www.instagram.com/cedriiick_/" target="_blank">Instagran</a> |
+                        <a href="https://www.facebook.com/Johncedced" target="_blank">Facebook</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="compilation" class="hidden">
+        <div class="container">
+            <h2>Compilation</h2>
+            <div class="text-content">
+                <p>This section showcases a compilation of my projects and works in programming.</p>
+                <ul>
+                    <li>Midterm Checklist</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="checklist.png" alt="Project Compilation Image" class="compilation-image" />
+            </div>
+        </div>
+    </section>
+    
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cedrick Domingo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
